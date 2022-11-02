@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+:root {
+  --colorGreen: #00856f;
+  --colorGreen2: #dce9e2;
+  --colorBlack: #212529;
+  --colorGray: #495057;
+  --colorWhite: white;
+  --colorWhite2: #f7f9f9;
+  --colorWhite3: #fffaf1;
+
+  --borderGreen: 1px solid var(--colorGreen);
+  --fontDmsans: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* START OF THE HEADER  */
+
+header {
+  background: var(--colorGreen2);
+}
+
+#header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+}
+
+#header-menu span {
+  font-weight: bold;
+  color: var(--colorGreen);
+}
+
+#header-menu #logo {
+  color: var(--colorBlack);
+  font-size: 20px;
+}
+
+#header-menu nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+#header-menu a {
+  color: var(--colorGreen);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#header-menu nav a::after {
+  content: "";
+  display: block;
+  transition: 0.5s;
+  border: 1px solid var(--colorGreen2);
+  width: 0%;
+}
+
+#header-menu nav a:hover::after {
+  width: 100%;
+  border: 1px solid var(--colorGreen);
+}
+
+#header-menu #link-border {
+  border: var(--borderGreen);
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+
+#header-menu #link-border:hover {
+  transform: scale(1.1);
+  color: var(--colorWhite);
+  background-color: var(--colorGreen);
+}
+
+/* END OF THE HEADER */
+
+/* START OF SECTION 1 */
+
+#background-sct1 {
+  background-color: var(--colorGreen2);
+}
+
+#section-1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+#text-section-1 :first-child {
+  color: var(--colorGreen);
+  font-weight: 580;
+  margin-bottom: 16px;
+}
+
+#text-section-1 h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#text-section-1 :nth-child(3) {
+  font-size: 17px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+#text-section-1 button {
+  background-color: var(--colorGreen);
+  color: var(--colorWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 32px;
+  gap: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 580;
+}
+
+#text-section-1 button:hover {
+  transform: scale(1.1);
+  color: var(--colorWhite);
+}
+
+#text-section-1 button img {
+  position: relative;
+  top: 7px;
+}
+
+#girl-img {
+  filter: drop-shadow(0 0 26px var(--colorGreen) );
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 40px;
+  right: 40px;
+}
+
+/* END OF SECTION 1 */
+
+/* START OF DIV ABOUT NUMBERS */
+
+#about-numbers {
+  background-color: var(--colorWhite);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 570px;
+  left: 85px;
+  z-index: 1;
+  width: 1000px;
+  height: 130px;
+  border-radius: 2%;
+  font-weight: 580;
+  margin-left: 95px;
+  box-shadow: 0px 5px 7px #00000045;
+
+}
+#about-numbers span {
+  font-size: 16px;
+  color: var(--colorGreen);
+}
+
+#about-numbers .numbers-div {
+  margin-top: 5px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.numbers-line {
+  background-color: var(--colorGreen);
+  height: 80px;
+  width: 1px;
+  margin: 20px 90px 0 90px;
+}
+
+/* END OF DIV ABOUT NUMBERS */
+
+/* START OF SECTION 2 */
+
+#background-sct2 {
+  background-color: var(--colorWhite2);
+}
+
+#headertxt-sct2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 150px;
+  margin-bottom: 50px;
+  gap: 15px;
+}
+
+#headertxt-sct2 span {
+  color: var(--colorGreen);
+  font-weight: 580;
+}
+
+#boxesinformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+
+.boxesinf {
+  border: 1px solid var(--colorGray);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  width: 305px;
+  height: 150px;
+  padding-left: 10px;
+  box-shadow: 0px 5px 7px #00000045;
+  transition: 0.5s;
+}
+
+.boxesinf:hover {
+  scale: 1.1;
+  cursor: context-menu;
+}
+
+.boxesinf :first-child {
+  margin-top: 5px;
+}
+
+.boxesinf :nth-child(2) {
+  font-weight: 580;
+  color: var(--colorBlack);
+}
+
+.boxesinf :nth-child(3) {
+  color: var(--colorGray);
+  font-weight: 400;
+}
+
+/* START OF SECTION 3 */
+
+#background-sct3 {
+  background-color: var(--colorWhite3);
+}
+
+#section-3 {
+  display: flex;
+  align-items: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  gap: 60px;
+}
+
+#text-sct3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#text-sct3 :first-child {
+  color: var(--colorGreen);
+  font-size: 15px;
+  font-weight: 580px;
+}
+
+#text-sct3 :last-child {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--colorGray);
+}
+
+/* END OF SECTION 3 */
+
+/* START OF SECTION 4 */
+
+#background-sct4 {
+  background-color: var(--colorWhite);
+}
+
+#section-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+#local {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+#section-4 button {
+  color: var(--colorWhite);
+  background-color: var(--colorGreen);
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 32px;
+  gap: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-weight: 580;
+  font-size: 14px;
+}
+
+#section-4 button:hover {
+  transform: scale(1.1);
+  color: var(--colorWhite);
+}
+
+#section-4 button img {
+  position: relative;
+  bottom: 2px;
+}
+
+/* END OF SECTION 4 */
+
+/* START OF FOOTER */
+
+footer {
+  background-color: var(--colorGreen);
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#footer-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--colorWhite);
+}
+
+#footer-texts h3 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#footer-texts span {
+  font-weight: bold;
+}
+
+#footer-imgs {
+  display: flex;
+  gap: 20px;
+}
+
+#footer-imgs img {
+  width: 40px;
+}
+
+  #footer-imgs .ytb {
+    height: 65px;
+    width: 65px; 
+    position: relative;
+    top: -10px;
+}
+
+/* END OF FOOTER */
