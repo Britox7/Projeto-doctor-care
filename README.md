@@ -7,7 +7,7 @@
 
 <div>
 ----------------------------------------------------------------------------------------------------------------
---------------------------------------
+-------------------------------
 <img src= https://user-images.githubusercontent.com/101662003/199568308-ad23369c-1660-42f7-9540-9a303c570e36.png
 />
 ----------------------------------------------------------------------------------------------------------------
@@ -32,5 +32,5 @@
 />
 <br>
 Gravei minha tela e postei no linkedin, caso queiram dar uma passada para ver como ficou, segue aqui o link da publicação: 
-<br>
+<br><br><br>
 Link do Projeto no figma:https://www.figma.com/file/mhqRFbKcNxdLTBmFUu0VCW/DoctorCare-(Community)-(Copy)?node-id=0%3A1
