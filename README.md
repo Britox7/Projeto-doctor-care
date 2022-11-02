@@ -31,6 +31,4 @@
 <img src= https://user-images.githubusercontent.com/101662003/199568860-dd434e79-fd90-4da5-bccb-f98ff65430d0.png
 />
 <br>
-Gravei minha tela e postei no linkedin, caso queiram dar uma passada para ver como ficou, segue aqui o link da publicação: 
-<br><br>
 Link do Projeto no figma:https://www.figma.com/file/mhqRFbKcNxdLTBmFUu0VCW/DoctorCare-(Community)-(Copy)?node-id=0%3A1
