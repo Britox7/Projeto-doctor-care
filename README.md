@@ -32,3 +32,5 @@
 />
 <br>
 Link do Projeto no figma:https://www.figma.com/file/mhqRFbKcNxdLTBmFUu0VCW/DoctorCare-(Community)-(Copy)?node-id=0%3A1
+<br>
+Link do Projeto no github pages: https://britox7.github.io/Projeto-doctor-care/
